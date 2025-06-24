@@ -118,8 +118,8 @@ if __name__ == "__main__":
     config_dict = {
         "input": "../references/traffic_test.mp4",
         "output": "../reports/model_demo.mp4",
-        "ssd_model_path": "../backup/models/best_ssd_model.pth",
-        "vgg_model_path": "../backup/models/best_vgg_model.pth",
+        "ssd_model_path": "../models/best_ssd_model.pth",
+        "vgg_model_path": "../models/best_vgg_model.pth",
         "confidence": 0.5,
         "display": True,
         "ssd_img_size": 300,
